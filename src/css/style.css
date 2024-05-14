@@ -103,7 +103,8 @@ h3 {
 main {
   min-height: 100vh;
   display: grid;
-  place-content: center;
+  place-content: end center;
+  padding-bottom: 5rem;
 }
 /* General Layout */
 
