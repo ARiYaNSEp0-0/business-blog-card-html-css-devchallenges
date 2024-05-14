@@ -97,9 +97,6 @@ h3 {
   font-size: 13px;
 }
 
-p {
-  word-spacing: 0.27rem;
-}
 /* Typography */
 
 /* General Layout */
@@ -112,10 +109,10 @@ main {
 
 /* Card */
 .card {
-  --card-radius: 12px;
-  --card-shadow: 0px 0px 8px var(var(--clr-primary-100));
+  --card-radius: 10px;
+  --card-shadow: 0px 0px 20px var(var(--clr-primary-100));
 
-  max-width: 450px;
+  max-width: 25.625rem;
   background-color: var(--clr-neutral-100);
   border-radius: var(--card-radius);
   box-shadow: var(--card-shadow);
@@ -141,7 +138,7 @@ main {
 .visual-element--decorative {
   position: absolute;
   bottom: -1%;
-  max-width: 100%;
+  width: 100%;
 }
 
 .card__visual > img,
