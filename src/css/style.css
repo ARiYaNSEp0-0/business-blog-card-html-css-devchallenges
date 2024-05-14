@@ -53,8 +53,8 @@ svg {
   --ff-primary: "Lato", sans-serif;
   --ff-secondary: "Poppins", cursive;
   --fs-body: 1rem;
-  --fs-small-text: 1rem;
-  --fs-title: 1.38rem;
+  --fs-small-text: .8rem;
+  --fs-title: 1.4rem;
   --fw-body: 400;
   --lh-body: 1.5;
   --lh-title: 1.6;
@@ -128,7 +128,7 @@ main {
 }
 
 .card__info-body {
-  --spacer: 1rem;
+  --spacer: .5rem;
 }
 
 .card__container {
