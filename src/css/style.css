@@ -128,7 +128,7 @@ main {
 }
 
 .card__info-body {
-  --spacer: 0.8rem;
+  --spacer: 0.9rem;
 }
 
 .card__container {
