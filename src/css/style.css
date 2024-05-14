@@ -54,7 +54,7 @@ svg {
   --ff-secondary: "Poppins", cursive;
   --fs-body: 1rem;
   --fs-small-text: 1rem;
-  --fs-title: 1.4rem;
+  --fs-title: 1.38rem;
   --fw-body: 400;
   --lh-body: 1.5;
   --lh-title: 1.6;
@@ -88,12 +88,13 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: var(--fs-small-text);
 }
 
 h3 {
   line-height: 1.2;
   font-size: 13px;
+  font-weight: 400;
 }
 
 /* Typography */
@@ -112,7 +113,7 @@ main {
   --card-radius: 10px;
   --card-shadow: 0px 0px 20px var(var(--clr-primary-100));
 
-  max-width: 26rem;
+  max-width: 25.5rem;
   background-color: var(--clr-neutral-100);
   border-radius: var(--card-radius);
   box-shadow: var(--card-shadow);
