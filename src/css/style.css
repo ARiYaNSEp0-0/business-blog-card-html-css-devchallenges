@@ -113,7 +113,7 @@ main {
   --card-radius: 10px;
   --card-shadow: 0px 0px 20px var(var(--clr-primary-100));
 
-  max-width: 25.5rem;
+  max-width: 26rem;
   background-color: var(--clr-neutral-100);
   border-radius: var(--card-radius);
   box-shadow: var(--card-shadow);
