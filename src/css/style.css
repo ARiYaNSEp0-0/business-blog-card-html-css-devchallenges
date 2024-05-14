@@ -56,7 +56,6 @@ svg {
   --fs-small-text: 1rem;
   --fs-title: 1.5rem;
   --fw-body: 400;
-  --fw-title: 700;
   --lh-body: 1.5;
   --lh-title: 1.6;
 
@@ -78,6 +77,7 @@ body {
 /* Typography */
 h1,
 h2 {
+  font-weight: 600;
   font-family: var(--ff-secondary);
   color: var(--clr-primary-900);
 }
@@ -93,7 +93,6 @@ h2 {
 
 h3 {
   line-height: 1.2;
-  font-weight: 500;
   font-size: 13px;
 }
 
@@ -104,7 +103,7 @@ main {
   min-height: 100vh;
   display: grid;
   place-content: end center;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 /* General Layout */
 
