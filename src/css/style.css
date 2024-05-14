@@ -53,7 +53,7 @@ svg {
   --ff-primary: "Lato", sans-serif;
   --ff-secondary: "Poppins", cursive;
   --fs-body: 1rem;
-  --fs-small-text: .8rem;
+  --fs-small-text: 1rem;
   --fs-title: 1.4rem;
   --fw-body: 400;
   --lh-body: 1.5;
@@ -93,7 +93,7 @@ h2 {
 
 h3 {
   line-height: 1.2;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
 }
 
@@ -128,7 +128,7 @@ main {
 }
 
 .card__info-body {
-  --spacer: .5rem;
+  --spacer: 0.8rem;
 }
 
 .card__container {
